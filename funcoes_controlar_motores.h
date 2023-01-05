@@ -21,9 +21,6 @@ void ligar_travao_motor(uint8_t pino_travao);
 void desligar_travao_motor(uint8_t pino_travao);
 void desligar_sinal_pwm(uint8_t pino_pwm);
 
-
-
 void configura_pinos_INPUT_OUTPUT_Controlo_motores(void);
-
 
 #endif /* FUNCOES_CONTROLAR_MOTORES_H_ */

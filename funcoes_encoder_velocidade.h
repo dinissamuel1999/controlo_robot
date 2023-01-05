@@ -12,6 +12,5 @@
 #include <Arduino.h>
 float Calcula_velocidade_linear_roda(long numero_pulsos);
 float Calcula_velocidade_media_linear_carro(float velocidade_roda1,float velocidade_roda2);
-void configura_pinos_encoder_interrupt(void);
 
 #endif /* FUNCOES_ENCODER_VELOCIDADE_H_ */

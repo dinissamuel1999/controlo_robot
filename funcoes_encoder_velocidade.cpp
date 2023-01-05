@@ -17,7 +17,4 @@ float Calcula_velocidade_media_linear_carro(float velocidade_roda1,
 	return (velocidade_roda1 + velocidade_roda2) / 2;
 }
 
-void configura_pinos_encoder_interrupt(void) {
 
-	//INPUT_PULLUP
-}
