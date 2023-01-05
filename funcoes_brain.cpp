@@ -12,9 +12,6 @@ struct tipo_dados_queue_brain_controlo_motores_0_255 {
 	uint8_t codigo_motor_2;
 };
 
-bool verifica_valor_limite_velocidade(int velocidade) {
-	return true;
-}
 
 void processa_dados_web(String cmd, int valor) {
 

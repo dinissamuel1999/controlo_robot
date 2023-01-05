@@ -19,6 +19,4 @@ void processa_dados_web(String cmd, int valor);
 void processa_cmd_web_controlo_carro(int inputValue);
 void processa_cmd_web_alterar_intensidade_luz(int valor_velocidade);
 
-bool verifica_valor_limite_velocidade(int velocidade);
-
 #endif /* FUNCOES_BRAIN_H_ */
