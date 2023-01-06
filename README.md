@@ -15,44 +15,43 @@ TP1: Pretende-se  neste  trabalho  prático  a  implementação  de um  algoritm
 
 ESP32 Framework:
 
-Modules that must be included in the project:
+    Modules that must be included in the project:
 
-    EUSART
+        EUSART
 
-    I/O ports
+        I/O ports
 
-    External interrupt(s)
+        External interrupt(s)
 
-    PWM
+        PWM
 
-    SPI
+        SPI
 
-Modules that cannot be included in the project:
+    Modules that cannot be included in the project:
 
-    Timers
+        Timers
 
-    Delays
+        Delays
 
-    Anything else that blocks the processor
+        Anything else that blocks the processor
 
 FreeRTOS:
-Include at least 5 of the following modules in the project:
 
-    Tasks
+        Tasks
 
-    Task Priority Change
+        Task Priority Change
 
-    Task Deletion
+        Task Deletion
 
-    Message Queues
+        Message Queues
 
-    Interrupts Management
+        Interrupts Management
 
-    Semaphores:
+        Semaphores:
 
-        Counting Semaphores
+            Counting Semaphores
 
-    Mutexes
+        Mutexes
 
 
          
