@@ -17,37 +17,38 @@ ESP32 Framework:
 
 • Módulos que podem ser incluídos no projeto:
 
-o EUSART
+    o EUSART
 
-o I/O ports
+    o I/O ports
 
-o External interrupt(s)
+    o External interrupt(s)
 
-o PWM
+    o PWM
 
-o SPI
+    o SPI
 
 • Módulos que não podem ser incluídos no projeto:
 
-o Timers
+    o Timers
 
-o Delays
+    o Delays
 
-o Loops que bloqueiem o processador
+    o Loops que bloqueiem o processador
+
 FreeRTOS:
 
-• Tasks
+    • Tasks
 
-• Task Priority Change
+    • Task Priority Change
 
-• Task Deletion
+    • Task Deletion
 
-• Message Queues
+    • Message Queues
 
-• Interrupts Management
+    • Interrupts Management
 
-• Semaphores:
+    • Semaphores:
 
-o Counting Semaphores
+        o Counting Semaphores
 
-• Mutexes
+    • Mutexes
