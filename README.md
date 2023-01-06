@@ -1,4 +1,4 @@
-# controlo_robot
+﻿# controlo_robot
 Implementação de Controlo remoto de robot através de uma página Web
 
 Link_video_codigo_implementado: https://www.youtube.com/watch?v=LNbaNhrq-nE
@@ -11,48 +11,43 @@ ESTG - Escola Superior de Tecnologia e Gestão
 EAU- Licenciatura em Engenharia Automóvel
 SEEV - Sistemas Elétricos e Eletrónicos de Veículos
 
-TP1: Pretende-se  neste  trabalho  prático  a  implementação  de um  algoritmo  que  permita  o controlo remoto de um  carro/robot através de uma página web disponibilizada num computador ou smartphone utilizando um sistema operativo de tempo real FreeRTOS. Adicionalmente este carro/robot disponibiliza o stream de uma câmara e a distância a que se encontram os objetos.
+TP1: Pretende-se neste trabalho prático a implementação de um  algoritmo  que  permita  o controlo remoto de um  carro/robot através de uma página web disponibilizada num computador ou smartphone utilizando um sistema operativo de tempo real FreeRTOS. Adicionalmente este carro/robot disponibiliza o stream de uma câmara e a distância a que se encontram os objetos.
 
 ESP32 Framework:
 
-    Modules that must be included in the project:
+• Módulos que podem ser incluídos no projeto:
 
-        EUSART
+o EUSART
 
-        I/O ports
+o I/O ports
 
-        External interrupt(s)
+o External interrupt(s)
 
-        PWM
+o PWM
 
-        SPI
+o SPI
 
-    Modules that cannot be included in the project:
+• Módulos que não podem ser incluídos no projeto:
 
-        Timers
+o Timers
 
-        Delays
+o Delays
 
-        Anything else that blocks the processor
-
+o Loops que bloqueiem o processador
 FreeRTOS:
 
-        Tasks
+• Tasks
 
-        Task Priority Change
+• Task Priority Change
 
-        Task Deletion
+• Task Deletion
 
-        Message Queues
+• Message Queues
 
-        Interrupts Management
+• Interrupts Management
 
-        Semaphores:
+• Semaphores:
 
-            Counting Semaphores
+o Counting Semaphores
 
-        Mutexes
-
-
-         
-         
+• Mutexes
